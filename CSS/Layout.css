@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 20px;
+}
+.child1, .child2, .child3, .child4{
+    height: 360px;
+    border: 2px solid rgb(6, 5, 5);
+    width: 200px;
+}
+.child1{
+    background-color: lightcoral;
+    flex-basis: 50%;
+}
+.child2{
+    background-color: lightcyan;
+}
+.child3{
+    background-color: lightsalmon;
+}
+.child4{
+    background-color: lightseagreen;
+}
