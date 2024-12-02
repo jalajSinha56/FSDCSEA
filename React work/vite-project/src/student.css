@@ -1,0 +1,17 @@
+.icard{
+    border: 3px solid rgb(12, 7, 7);
+    height: 300px;
+    width: 250px;
+    background-color: antiquewhite;
+    color: black;
+    margin: 200px;
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+}
+*{
+    border-collapse: collapse;
+    border: none;
+}
+img{
+    height: 100px;
+}
