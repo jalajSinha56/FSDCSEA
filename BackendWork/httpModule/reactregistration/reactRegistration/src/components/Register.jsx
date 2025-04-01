@@ -15,7 +15,7 @@ function Register() {
         console.log("Password:", password);
 
         // Send data to the backend server
-        fetch('http://localhost:7070/register', {
+        fetch('http://localhost:7071/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
