@@ -11,8 +11,7 @@ const server = http.createServer((req, res) => {
         res.statusCode=200;
         return res.end();
     }
-
-
+    
     if (req.url == "/register" && req.method == "POST") {
         let body = "";
         let arr = [];
